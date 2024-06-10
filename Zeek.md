@@ -33,4 +33,39 @@ Now we are sure that we have Zeek installed. Let's start the Zeek as a service! 
 # Questions
 
 
-## Question 1 **(Each exercise has a folder. Ensure you are in the right directory to find the pcap file and accompanying files. `Desktop/Exercise-Files/TASK-2`)**
+## Question 1 
+**Each exercise has a folder. Ensure you are in the right directory to find the pcap file and accompanying files. `Desktop/Exercise-Files/TASK-2`**
+
+### Solution
+
+- Head on to the machine, 
+- Open Command line.
+- Input `cd Desktop/Exercise-Files/TASK-2`
+
+![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/e8e2823d-a215-4e4c-b590-47234d0c8a6f)
+
+- Go back to the task questions and click on complete.
+
+![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/e7d3b73a-c3f7-4de1-944f-128015370f8e)
+
+## Question 2
+**What is the installed Zeek instance version number?**
+
+###  Solution
+
+- On your machine's Command Line input the command `zeek -v`
+- You'll get zeek version `4.2.1`
+
+![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/0d27bd7b-738d-4205-b4ea-80f72fbf2f8a)
+
+## Question 4
+**What is the version of the ZeekControl module?**
+
+### Solution
+- On your Command line run `zeekctl`
+
+
+
+
+
+
