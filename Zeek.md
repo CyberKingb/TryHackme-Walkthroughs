@@ -58,14 +58,33 @@ Now we are sure that we have Zeek installed. Let's start the Zeek as a service! 
 
 ![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/0d27bd7b-738d-4205-b4ea-80f72fbf2f8a)
 
-## Question 4
+## Question 3
 **What is the version of the ZeekControl module?**
 
 ### Solution
 - On your Command line run `zeekctl`
+  
+![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/85026950-f6f4-42f3-9e80-caaa035d0340)
+
+- To exit zeek module input `exit` into the command line..
+
+![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/a17cdac4-147f-4cae-b913-299b0d46f924)
 
 
+## Question 4
+**Investigate the ***"sample.pcap"*** file. What is the number of generated alert files?**
+
+### Solution
+
+- Back to your command line input `zeek -C -r sample.pcap`
+- Input `ls -l`
+
+![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/aee45150-a717-40ef-88a2-b1702de1bdc1)
+
+![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/83925909-116f-4576-bf44-93ccb5f1fec4)
 
 
+# Task 3 (Zeek Logs)
 
+Zeek generates log files according to the traffic data. You will have logs for every connection in the wire, including the application level protocols and fields. Zeek is capable of identifying 50+ logs and categorising them into seven categories. Zeek logs are well structured and tab-separated ASCII files, so reading and processing them is easy but requires effort. You should be familiar with networking and protocols to correlate the logs in an investigation, know where to focus, and find a specific piece of evidence.
 
