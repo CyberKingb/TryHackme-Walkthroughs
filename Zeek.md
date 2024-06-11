@@ -113,7 +113,13 @@ Zeek generates log files according to the traffic data. You will have logs for e
 
 ## Solution
 - On the terminal in your machine input the command `cat dns.log`
-- 
+
+<img width="873" alt="image" src="https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/b64c96bc-7f5d-49bd-86c4-c15a01227faf">
+
+-You'll see that only `2` addresses were found.
+
+
+
 
 
 
