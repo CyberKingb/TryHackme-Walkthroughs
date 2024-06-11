@@ -109,7 +109,7 @@ Zeek generates log files according to the traffic data. You will have logs for e
 - ![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/2850cca9-232b-4434-bd82-e38903f7df26)
 
 ## Question 3
-**Investigate the `dns.log` file. What is the number of unique DNS queries?
+**Investigate the `dns.log` file. What is the number of unique DNS queries?**
 
 ## Solution
 - On the terminal in your machine input the command `cat dns.log`
@@ -118,6 +118,18 @@ Zeek generates log files according to the traffic data. You will have logs for e
 
 -You'll see that only `2` addresses were found.
 
+## Question 4
+**Investigate the `conn.log` file. What is the longest connection duration?**
+
+## Solution
+
+- On you terminal input `cat conn.log`
+- Look at the connection duration section you'll see that `332.319364` was the longest connection time.
+
+
+![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/1a96eaf3-e768-4769-8be5-b8d9654b8601)
+
+# Task 4 (CLI Kung-Fu Recall: Processing Zeek Logs)
 
 
 
