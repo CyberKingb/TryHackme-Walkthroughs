@@ -88,3 +88,32 @@ Now we are sure that we have Zeek installed. Let's start the Zeek as a service! 
 
 Zeek generates log files according to the traffic data. You will have logs for every connection in the wire, including the application level protocols and fields. Zeek is capable of identifying 50+ logs and categorising them into seven categories. Zeek logs are well structured and tab-separated ASCII files, so reading and processing them is easy but requires effort. You should be familiar with networking and protocols to correlate the logs in an investigation, know where to focus, and find a specific piece of evidence.
 
+## Question 1
+**Each exercise has a folder. Ensure you are in the right directory to find the pcap file and accompanying files. `Desktop/Exercise-Files/TASK-3`**
+
+## Solution
+- Go to your virtual machine, open up Terminal and input the command `cd Desktop/Exercise-Files/TASK-3`
+
+- ![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/2f60ece7-f5f8-4ba6-8382-505e81cd7788)
+- ![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/4141ac3a-fd33-4b2f-bffa-ff20e84930f6)
+
+## Question 2
+**Investigate the `sample.pcap` file. Investigate the `dhcp.log` file. What is the available hostname?**
+
+## Solution
+
+- On Terminal input the command `zeek -C -r sample.pcap`
+- Then input `ls -l`
+- Next input the command `cat dhcp.log`
+- ![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/d0b5bbe7-6074-41be-b8ca-02d2d42335c0)
+- ![image](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/2850cca9-232b-4434-bd82-e38903f7df26)
+
+## Question 3
+**Investigate the `dns.log` file. What is the number of unique DNS queries?
+
+## Solution
+- On the terminal in your machine input the command `cat dns.log`
+- 
+
+
+
