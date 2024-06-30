@@ -54,6 +54,7 @@ Look at the details of the **STATS** packet log that is visible on the dashboard
 
 ### Solution
 On your Brim dashboard look for the **stats** log, then scroll down on the Log details and you'll see that the **reassem_tcp_size** is `540`
+
 <img width="760" alt="reasse_tcp_file size" src="https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/8732e8c7-26bb-498c-89d1-f3ff51cddf23">
 
 ![Solved](https://github.com/CyberKingb/TryHackme-Walkthroughs/assets/161872623/e84275ff-7811-4797-a12d-cbcc10212150)
